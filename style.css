@@ -1,0 +1,233 @@
+@font-face {
+    font-family: "Momo";
+    src: url("./fonts/Momo/MomoTrustDisplay-Regular.ttf");
+}
+@font-face {
+    font-family: "Six-Caps";
+    src: url("./fonts/Six_Caps/SixCaps-Regular.ttf");
+}
+@font-face {
+    font-family: "Oswald-Light";
+    src: url("./fonts/Oswald/static/Oswald-Light.ttf");
+}
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("./fonts/Roboto/static/Roboto-Medium.ttf");
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("./fonts/Roboto/static/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Lato-Regular";
+    src: url("./fonts/Lato/Lato-Regular.ttf");
+}
+
+body
+{
+    margin: 0;
+    font-family: "Roboto-Medium";
+}
+
+nav
+{
+    font-family: "Lato-Regular";
+    background-color: #101010;
+    color: white;
+}
+nav a
+{
+    padding: 32px 8px;
+}
+nav a:hover
+{
+    background-color: #ffffff08;
+}
+.nav-wrapper
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.nav-name
+{
+    font-family: "Momo";
+}
+.nav-right
+{
+    margin-left: auto;
+}
+
+.banner-container
+{
+    background-image: radial-gradient(crimson, rgb(110, 21, 39));
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner-text
+{
+    margin: 0px;
+    display: block;
+    max-width: 800px;
+
+    font-family: "Momo";
+    color: white;
+    font-size: 4rem;
+
+    text-align: center;
+}
+
+.projects-container
+{
+    background-color: #010409;
+    color: white;
+}
+.projects-wrapper
+{
+    max-width: 1080px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.hobbies-container
+{
+    background-color: #060b14;
+    color: white;
+}
+.hobbies-wrapper
+{
+    max-width: 1080px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.projects-flex
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project
+{
+    color: white;
+    background-color: #0d1117;
+    border-radius: 10px;
+    height: 500px;
+    width: 300px;
+    margin: 12px;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: #00000056 0 10px 10px;
+    border: 1px solid #3d444d;
+}
+.project-title
+{
+    font-family: "Momo";
+    font-size: 24px;
+    margin: 6px 10px;
+}
+.project-image
+{
+    width: 300px;
+    height: 169px;
+
+    object-fit: cover;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.project p
+{
+    margin: 0 10px 10px;
+    padding: 8px 10px 10px 10px;
+    
+    text-align: left;
+    overflow-y: scroll;
+    display: block;
+    background-color: #151b23;
+    
+    border: 1px solid #3d444d;
+    border-radius: 10px;
+
+    font-family: "Lato-Regular";
+}
+
+.link-icon
+{
+    margin-left: auto;
+    margin-right: 8px;
+
+    margin-top: auto;
+    margin-bottom: 8px;
+}
+.link-icon img
+{
+    width: 48px;
+}
+
+.tag-container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 6px 10px;
+}
+.tag
+{
+    background-color: #151b23;;
+    color: white;
+
+    margin-right: 4px;
+    margin-bottom: 4px;
+
+    border: 1px solid #3d444d;
+    border-radius: 20px;
+
+    padding: 4px 8px;
+    font-family: "Momo";
+
+    box-shadow: #00000056 0 2px 4px;
+}
+.html
+{
+    background-color: rgb(255, 94, 0);
+    color: white;
+
+    border: none;
+}
+.javascript
+{
+    background-color: rgb(242, 255, 0);
+    color: black;
+
+    border: none;
+}
+.css
+{
+    background-color: rgb(0, 128, 255);
+    color: white;
+
+    border: none;
+}
+
+@media screen and (max-width: 800px)
+{
+    .banner-text
+    {
+        font-size: 2rem;
+    }
+}
