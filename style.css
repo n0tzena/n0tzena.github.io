@@ -165,6 +165,16 @@ h1
 
     font-family: "Lato-Regular";
 }
+.project a
+{
+    color:#46ceff;
+    text-decoration: none;
+}
+.project p>a:hover
+{
+    background-color: #46ceff35;
+    border-radius: 4px;
+}
 
 .link-icon
 {
@@ -222,6 +232,31 @@ h1
     color: white;
 
     border: none;
+}
+
+footer
+{
+    background-color: black;
+    padding: 40px 0;
+}
+.footer-wrapper
+{
+    max-width: 1080px;
+    display: flex;
+    margin: 0 auto;
+}
+.footer-icons
+{
+    margin-left: auto;
+    display: flex;
+}
+.footer-icon
+{
+    margin-left: 16px;
+}
+.footer-icon img
+{
+    width: 48px;
 }
 
 @media screen and (max-width: 800px)
