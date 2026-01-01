@@ -34,6 +34,7 @@ nav
     font-family: "Lato-Regular";
     background-color: #101010;
     color: white;
+    padding: 0 20px;
 }
 nav a
 {
@@ -91,7 +92,7 @@ nav a:hover
 }
 .projects-wrapper
 {
-    max-width: 1080px;
+    max-width: 1440px;
     padding: 20px 0;
     margin: 0 auto;
 }
@@ -102,7 +103,7 @@ nav a:hover
 }
 .hobbies-wrapper
 {
-    max-width: 1080px;
+    max-width: 1440px;
     padding: 20px 0;
     margin: 0 auto;
 }
